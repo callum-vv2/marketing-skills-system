@@ -186,6 +186,57 @@ Also add to learnings.md? [y/N]
 - `/orchestrator learn seo-content` - Add a successful blog post
 - `/orchestrator learn email-sequences` - Add a winning email
 
+### `/orchestrator compile`
+Generate the Master Brand Document from all source-of-truth files.
+
+**Process:**
+1. Check that all Layer 1 skills are complete (or warn if missing)
+2. Read all source-of-truth files:
+   - `competitor-analysis.md`
+   - `customer-research.md`
+   - `market-positioning.md`
+   - `growth-model.md`
+   - `value-proposition.md`
+   - `brand-strategy.md`
+   - `brand-voice.md`
+   - `positioning-angles.md` (if exists)
+3. Compile into `source-of-truth/MASTER-BRAND-DOCUMENT.md`
+4. Update any missing sections with placeholders
+
+**Output format:**
+```
+📄 Master Brand Document Compiled
+═══════════════════════════════════════
+
+Status: [Complete / Partial]
+
+✓ Introduction (requires manual input)
+✓ Brand Story (from brand-strategy)
+✓ Brand Personality (from brand-voice)
+✓ ICP & Personas (from customer-research)
+✓ Product & Services (from value-proposition)
+✓ Competition (from competitor-analysis)
+✓ Messaging (from positioning-angles)
+✓ Growth Model (from growth-model)
+
+Document saved: source-of-truth/MASTER-BRAND-DOCUMENT.md
+
+Missing sections:
+- [List any incomplete sections]
+```
+
+**Template Location:** `source-of-truth/MASTER-BRAND-DOCUMENT.md`
+
+The master document follows this structure:
+1. **Introduction** - Team, origin story (manual input)
+2. **Brand Story** - Vision, Mission, Why, How, What, North Star
+3. **Brand Personality** - Primary traits, supporting traits, tone, avoid, archetype
+4. **ICP & Personas** - B2B buying committee tables, GTM insights
+5. **Product & Services** - Features, USPs, data captured, value props by ICP, business model
+6. **Competition** - Direct and indirect competitors
+7. **Messaging** - Core message, pillars, audience-specific messaging
+8. **Growth Model** - GTM strategy, metrics, channels
+
 ### `/orchestrator campaign "[campaign-name]"`
 Create a new campaign workspace and load context.
 

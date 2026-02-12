@@ -169,6 +169,42 @@ Generate 15-20 angles across categories:
     "upstream_skills": ["market-positioning", "value-proposition", "customer-research"]
   },
   "outputs": {
+    "core_brand_message": {
+      "primary_message": "The one sentence everything ladders up to",
+      "human_truth": "The underlying human insight",
+      "business_outcome": "What it delivers for the business",
+      "strategic_role": "How this message functions",
+      "use_this_when": "When to use this message"
+    },
+    "supporting_pillars": [
+      {
+        "pillar": "Pillar name",
+        "core_statement": "The statement",
+        "what_it_means": "Explanation",
+        "proof_signals": ["Proof 1", "Proof 2"]
+      }
+    ],
+    "audience_messaging": [
+      {
+        "audience": "Persona/role name",
+        "audience_goal": "What they want",
+        "primary_message": "Message for them",
+        "key_benefits": ["Benefit 1", "Benefit 2"],
+        "emotional_trigger": "What motivates them",
+        "proof_points": ["Proof 1", "Proof 2"],
+        "use_this_when": "Context for use"
+      }
+    ],
+    "message_discipline": [
+      {
+        "rule": "Rule name",
+        "description": "What it means"
+      }
+    ],
+    "sales_messaging": {
+      "in_venue": "Messaging for in-person/on-site contexts",
+      "outside_venue": "Messaging for remote/digital contexts"
+    },
     "angles_summary": {
       "total_angles": 15,
       "by_category": {
@@ -239,6 +275,95 @@ Generate 15-20 angles across categories:
 
 *Generated: [date]*
 *Version: 1.0*
+
+## Core Brand Message
+
+> **[Primary brand message - the one sentence everything ladders up to]**
+
+This is the sentence everything ladders up to. It connects:
+- **Human truth** - [The underlying insight]
+- **Product reality** - [What you actually do]
+- **Business outcome** - [What it delivers]
+
+| Element | Content |
+|---------|---------|
+| **Primary Brand Message** | [The master message] |
+| **Human Truth** | [The underlying human insight] |
+| **Business Outcome** | [What it delivers] |
+| **Strategic Role** | [How this message functions] |
+| **Use This When** | [When to use - e.g., "Explaining what we do in one sentence"] |
+
+---
+
+## Supporting Messaging Pillars
+
+| Pillar | Core Statement | What It Means | Proof Signals |
+|--------|----------------|---------------|---------------|
+| [Pillar 1] | [Statement] | [Meaning] | [Proof] |
+| [Pillar 2] | [Statement] | [Meaning] | [Proof] |
+| [Pillar 3] | [Statement] | [Meaning] | [Proof] |
+| [Pillar 4] | [Statement] | [Meaning] | [Proof] |
+
+---
+
+## Audience-Specific Messaging
+
+### [Audience 1 - e.g., Commercial Directors / CCO / VP Marketing]
+
+| Dimension | Messaging |
+|-----------|-----------|
+| **Audience Goal** | [What they want to achieve] |
+| **Primary Message** | [Message tailored to them] |
+| **Key Benefits** | [Benefits that matter to them] |
+| **Emotional Trigger** | [What motivates them - e.g., "Risk reduction and upside"] |
+| **Proof Points** | [Evidence they care about] |
+| **Use This When** | [Context - e.g., "Board decks, commercial pitches, renewals"] |
+
+### [Audience 2 - e.g., Heads of Fan Engagement / Audience Experience]
+
+| Dimension | Messaging |
+|-----------|-----------|
+| **Audience Goal** | [What they want] |
+| **Primary Message** | [Message for them] |
+| **Key Benefits** | [Benefits] |
+| **Emotional Trigger** | [Motivation] |
+| **Proof Points** | [Evidence] |
+| **Use This When** | [Context] |
+
+### [Audience 3 - Continue for each key persona/role...]
+
+| Dimension | Messaging |
+|-----------|-----------|
+| **Audience Goal** | [What they want] |
+| **Primary Message** | [Message for them] |
+| **Key Benefits** | [Benefits] |
+| **Emotional Trigger** | [Motivation] |
+| **Proof Points** | [Evidence] |
+| **Use This When** | [Context] |
+
+---
+
+## Message Discipline & Usage Guide
+
+| Rule | Description |
+|------|-------------|
+| One Core Truth | Never change the main brand message |
+| Translate, Don't Rewrite | Adjust emphasis, not meaning |
+| Emotion First | Always start with the human truth |
+| Value Second | Translate emotion into outcomes |
+| Proof Always | Back every claim with evidence |
+
+---
+
+## Sales Messaging
+
+### In-Venue / On-Site
+[Specific messaging for in-person contexts - stadium activations, live events, on-site demos]
+
+### Outside Venue / Always-On
+[Specific messaging for remote/digital contexts - between events, digital marketing, ongoing engagement]
+
+---
 
 ## Angles Summary
 

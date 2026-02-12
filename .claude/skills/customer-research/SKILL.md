@@ -152,6 +152,35 @@ After gathering information:
       "buying_triggers": ["trigger 1", "trigger 2"],
       "disqualifiers": ["who is NOT a fit"]
     },
+    "buying_committee": {
+      "segments": [
+        {
+          "icp": "Segment name",
+          "primary_end_user": "Role who uses daily",
+          "influencer": "Role who influences decision",
+          "economic_buyer": "Role who signs checks"
+        }
+      ],
+      "tiers": [
+        {
+          "market": "Market/Region name",
+          "tiers": [
+            {
+              "name": "Tier 1",
+              "primary_end_user": "Role",
+              "influencer": "Role",
+              "economic_buyer": "Role"
+            }
+          ]
+        }
+      ],
+      "gtm_insights": {
+        "by_segment": {
+          "segment_name": ["insight 1", "insight 2"]
+        },
+        "universal_truth": "The one insight that applies across all segments"
+      }
+    },
     "personas": [
       {
         "name": "Persona Name (e.g., 'Burned-out Studio Owner')",
@@ -253,7 +282,49 @@ After gathering information:
 
 [2-3 paragraph overview of ideal customer, their core jobs-to-be-done, and key insights]
 
-## Ideal Customer Profile (ICP)
+---
+
+## ICP & Personas (Buying Committee)
+
+This section maps who is involved in the buying decision for each customer segment.
+
+### B2B Audience
+
+| ICP | Primary End User | Influencer | Economic Buyer |
+|-----|------------------|------------|----------------|
+| [Segment 1] | [Role - who uses daily] | [Role - who influences] | [Role - who signs checks] |
+| [Segment 2] | [Role] | [Role] | [Role] |
+| [Segment 3] | [Role] | [Role] | [Role] |
+
+### B2B Audience by Tier (if applicable)
+
+Use this format for markets with distinct tiers (enterprise vs SMB, different regions, etc.):
+
+**[Market/Region Name]**
+
+| ICP | Primary End User | Influencer | Economic Buyer |
+|-----|------------------|------------|----------------|
+| [Tier 1] | [Role] | [Role] | [Role] |
+| [Tier 2] | [Role] | [Role] | [Role] |
+| [Tier 3] | [Role] | [Role] | [Role] |
+
+### Critical GTM Insights
+
+**[Segment 1]:**
+- [Key insight about how to sell to this segment]
+- [What works, what doesn't]
+- [Buying dynamics]
+
+**[Segment 2]:**
+- [Key insight]
+- [Buying dynamics]
+
+**Universal Truth:**
+[The one insight that applies across all segments - e.g., "The economic buyer is almost never the primary end user"]
+
+---
+
+## Ideal Customer Profile (ICP) - Detailed
 
 **In one sentence:** [ICP summary]
 

@@ -149,9 +149,14 @@ Develop brand strategy through:
   },
   "outputs": {
     "brand_purpose": {
-      "purpose": "Why we exist beyond profit",
-      "mission": "What we do",
-      "vision": "Where we're going",
+      "what_we_are": "Description of what the company/product does",
+      "vision": "The future state we're working toward",
+      "mission": "How we'll achieve the vision",
+      "why": "The reason we exist",
+      "how": "Our unique approach",
+      "what": "What we actually do/sell",
+      "north_star": "The single metric/goal everything ladders to",
+      "growth_model": "B2B sales-led / PLG / Hybrid / etc.",
       "values": ["value 1", "value 2", "value 3"]
     },
     "brand_personality": {
@@ -237,16 +242,22 @@ Develop brand strategy through:
 
 ---
 
-## Brand Purpose
+## Brand Story
 
-### Purpose (Why We Exist)
-> [Why we exist beyond making money]
+### What We Are
+> [Description of what the company/product does and the space it operates in]
 
-### Mission (What We Do)
-> [What we do every day]
+### Strategic Foundation
 
-### Vision (Where We're Going)
-> [The future we're creating]
+| Element | Definition |
+|---------|------------|
+| **Vision** | [The future state you're working toward] |
+| **Mission** | [How you'll achieve the vision] |
+| **Why** | [The reason you exist] |
+| **How** | [Your unique approach] |
+| **What** | [What you actually do/sell] |
+| **North Star** | [The single metric/goal everything ladders to] |
+| **Growth Model** | [B2B sales-led / PLG / Hybrid / etc.] |
 
 ### Core Values
 1. **[Value 1]** - [What it means in practice]

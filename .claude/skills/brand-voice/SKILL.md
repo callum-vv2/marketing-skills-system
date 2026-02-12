@@ -140,6 +140,21 @@ Develop voice guidelines through:
     "upstream_skills": ["brand-strategy", "customer-research"]
   },
   "outputs": {
+    "brand_personality": {
+      "primary_traits": ["Trait 1", "Trait 2", "Trait 3", "Trait 4"],
+      "supporting_traits": ["Trait 1", "Trait 2", "Trait 3"],
+      "tone_of_voice": "Description of how the brand sounds",
+      "avoid": ["What not to do 1", "What not to do 2", "What not to do 3"],
+      "brand_archetype": {
+        "primary": "Archetype name",
+        "secondary": "Secondary archetype (if any)"
+      },
+      "personality_in_practice": {
+        "how_we_write": "Writing style description",
+        "how_we_act": "Behavioral description",
+        "team_behavior": "Internal culture and approach"
+      }
+    },
     "voice_attributes": [
       {
         "attribute": "attribute name",
@@ -235,6 +250,43 @@ Develop voice guidelines through:
 
 **The Voice:**
 > [One paragraph describing the voice - how it sounds, who it sounds like, what makes it distinctive]
+
+---
+
+## Brand Personality
+
+### Primary Traits
+- [Trait 1]
+- [Trait 2]
+- [Trait 3]
+- [Trait 4]
+
+### Supporting Traits
+- [Trait 1]
+- [Trait 2]
+- [Trait 3]
+
+### Tone of Voice
+[Description of how the brand sounds - e.g., "Emotional, exciting, inclusive, and energetic"]
+
+### Avoid
+- [What not to do 1 - e.g., Corporate jargon]
+- [What not to do 2 - e.g., Overly technical language]
+- [What not to do 3 - e.g., Sales-heavy or transactional tone]
+
+### Brand Archetype
+**The [Primary Archetype]** (with elements of the [Secondary Archetype])
+
+### Personality in Practice
+
+**How we write:**
+[Simple, emotional, experience-led language focused on moments and fans]
+
+**How we act:**
+[Fan-first, collaborative, fast-moving, and experimental. We show, don't tell]
+
+**Team behavior:**
+[Test, learn, iterate. Prioritize fan experience and partner value. Build in public]
 
 ---
 

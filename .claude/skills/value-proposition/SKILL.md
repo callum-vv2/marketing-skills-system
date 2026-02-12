@@ -139,6 +139,38 @@ Develop value proposition through:
     "upstream_skills": ["market-positioning", "customer-research"]
   },
   "outputs": {
+    "product_overview": {
+      "b2b": {
+        "description": "Description of the B2B product/service",
+        "primary_value": "Main value delivered"
+      },
+      "b2c": {
+        "description": "Description of the B2C product/service (if applicable)",
+        "primary_value": "Main value delivered"
+      }
+    },
+    "features": {
+      "b2b": ["Feature 1", "Feature 2", "Feature 3"],
+      "b2c": ["Feature 1", "Feature 2", "Feature 3"]
+    },
+    "usps": {
+      "b2b": [
+        {"usp": "USP statement", "differentiation": "Why unique"}
+      ],
+      "b2c": [
+        {"usp": "USP statement", "differentiation": "Why unique"}
+      ]
+    },
+    "data_value": {
+      "types": [
+        {"type": "Category", "tracked": ["data point 1", "data point 2"]}
+      ]
+    },
+    "business_model": {
+      "revenue_streams": ["Stream 1", "Stream 2"],
+      "pricing_model": "Description of pricing approach",
+      "monetization_notes": "Additional notes on how money is made"
+    },
     "value_proposition": {
       "primary_statement": "Clear value prop statement",
       "one_liner": "Single sentence version",
@@ -179,6 +211,13 @@ Develop value proposition through:
         "benefit": "what it enables",
         "outcome": "ultimate result for customer",
         "proof": "evidence this is true"
+      }
+    ],
+    "value_proposition_by_icp": [
+      {
+        "icp": "Customer segment",
+        "persona": "Role/persona name",
+        "value_proposition": "Specific value prop for this ICP/persona"
       }
     ],
     "persona_messaging": [
@@ -246,6 +285,75 @@ Develop value proposition through:
 
 *Generated: [date]*
 *Version: 1.0*
+
+## Product Overview
+
+### B2B Product
+[Description of the B2B product/service - what it does, who it's for]
+
+### B2C Product (if applicable)
+[Description of the B2C product/service - what it does, who it's for]
+
+---
+
+## Features
+
+| B2B Features | B2C Features |
+|--------------|--------------|
+| [Feature 1] | [Feature 1] |
+| [Feature 2] | [Feature 2] |
+| [Feature 3] | [Feature 3] |
+| [Feature 4] | [Feature 4] |
+
+---
+
+## USPs (Unique Selling Propositions)
+
+| B2B USPs | B2C USPs |
+|----------|----------|
+| [USP 1 - what makes you unique] | [USP 1] |
+| [USP 2] | [USP 2] |
+| [USP 3] | [USP 3] |
+
+---
+
+## Data/Value Captured
+
+| Type | What's Tracked |
+|------|----------------|
+| [Category 1] | [Data points tracked] |
+| [Category 2] | [Data points tracked] |
+| [Category 3] | [Data points tracked] |
+
+---
+
+## Value Proposition by ICP
+
+### Main Value Proposition
+> [Primary value proposition that applies to all]
+
+### Per ICP and Persona
+
+| ICP | Persona | Value Proposition |
+|-----|---------|-------------------|
+| [Segment 1] | [Role 1] | [Specific value prop for this combination] |
+| [Segment 1] | [Role 2] | [Specific value prop] |
+| [Segment 2] | [Role 1] | [Specific value prop] |
+| [Segment 2] | [Role 2] | [Specific value prop] |
+
+---
+
+## Business Model
+
+**Revenue Streams:**
+- [Stream 1 - e.g., "Subscription fees"]
+- [Stream 2 - e.g., "Setup/implementation fees"]
+- [Stream 3 - e.g., "Usage-based pricing"]
+
+**Pricing Model:**
+[Description of how pricing works]
+
+---
 
 ## Core Value Proposition
 

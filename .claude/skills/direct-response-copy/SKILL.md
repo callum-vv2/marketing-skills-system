@@ -35,6 +35,13 @@ Create conversion-focused copy that:
 - `source-of-truth/customer-research.json` - Pain points, VoC, objections
 - `source-of-truth/value-proposition.json` - Benefits, proof points
 
+## Required References
+
+Before creating copy, review:
+- `orchestrator/references/neuroscience-marketing.md` - Persuasion science, System 1/2
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Anti-AI detection**
+- `orchestrator/references/disruptive-marketing.md` - Provocative landing page options
+
 ## Frameworks to Apply
 
 ### Gary Halbert's Emotional Copy
@@ -371,6 +378,24 @@ Create copy following the structure:
 - [ ] Urgency feels authentic
 - [ ] Brand voice is consistent
 - [ ] Reading flows (slippery slide)
+
+## Human Authenticity Check (MANDATORY)
+
+- [ ] **No AI phrases:** Zero "leverage," "comprehensive," "dive in," etc.
+- [ ] **Has opinion:** Takes a stance, not just balanced info
+- [ ] **Varied structure:** Not mechanical bullet patterns
+- [ ] **Contractions:** Sounds natural ("don't" not "do not")
+- [ ] **Specific examples:** Real, not generic placeholders
+- [ ] **Read aloud test:** Sounds like a person talking
+
+## Neuroscience Validation (MANDATORY)
+
+- [ ] **Attention:** Headline creates instant curiosity/relevance
+- [ ] **System 1:** Can grasp core value without thinking hard
+- [ ] **Emotion:** Creates emotional response (desire, fear, hope)
+- [ ] **Memory:** Distinctive enough to be recalled later
+- [ ] **Friction:** Every obstacle to conversion removed
+- [ ] **Cognitive ease:** Easy to read, scan, and understand
 
 ---
 

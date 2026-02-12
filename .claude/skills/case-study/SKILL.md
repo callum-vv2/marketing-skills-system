@@ -26,6 +26,13 @@ Create case studies that:
 - `source-of-truth/brand-voice.json` - Voice attributes
 - `source-of-truth/customer-research.json` - ICP, personas, pain points
 
+## Required References
+
+Before creating case studies, review:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Must sound human, not templated**
+- `orchestrator/references/neuroscience-marketing.md` - Story structure, emotional engagement
+- `orchestrator/references/disruptive-marketing.md` - Bold case study approaches
+
 ## Frameworks to Apply
 
 ### STAR Framework
@@ -322,6 +329,51 @@ To add a successful case study to the swipe file:
 4. Get customer approval before publishing
 5. Feed to content-atomizer for distribution
 
+## Human Authenticity Check (MANDATORY)
+
+**Reference:** `orchestrator/references/human-content-guidelines.md`
+
+Before publishing any case study:
+
+- [ ] **No template feel:** Story flows naturally, not section-by-section
+- [ ] **Real voice:** Quotes sound like actual people, not polished PR
+- [ ] **Specific details:** Concrete numbers, names, timelines—not vague claims
+- [ ] **Varied structure:** Not every case study follows exact same format
+- [ ] **Personality present:** Customer's unique voice and perspective shines through
+- [ ] **No AI tells:** Zero "leverage," "streamline," "seamless," "robust" language
+- [ ] **Honest challenges:** Includes real obstacles, not just smooth success
+
+### Quote Authenticity Test
+
+Great quotes sound like real humans:
+| Sounds AI/PR | Sounds Human |
+|--------------|--------------|
+| "The solution has been transformative for our organization." | "I stopped dreading Monday mornings." |
+| "We've achieved significant efficiency gains." | "We cut our processing time from 3 days to 4 hours." |
+| "The team has been very responsive." | "When our CEO called panicking at 9pm, they fixed it by 10." |
+
+## Neuroscience Validation (MANDATORY)
+
+**Reference:** `orchestrator/references/neuroscience-marketing.md`
+
+Case studies work because of story processing in the brain. Validate:
+
+- [ ] **Mirror neurons activated:** Reader can see themselves in the customer
+- [ ] **Emotional before rational:** Problem section creates feeling before stats
+- [ ] **Concrete > Abstract:** Specific stories beat general claims
+- [ ] **Transportation effect:** Story is immersive enough to lose track of being marketed to
+- [ ] **Tension and resolution:** Clear problem-solution arc creates satisfaction
+- [ ] **Social proof triggers:** Similarity to reader's situation/role/industry
+
+### Neuroscience of Case Study Structure
+
+| Section | Brain Response | How to Optimize |
+|---------|---------------|-----------------|
+| **Challenge** | Amygdala (threat/stress) | Make the pain vivid and relatable |
+| **Solution** | Dopamine (hope/curiosity) | Show the turning point clearly |
+| **Results** | Reward circuits (satisfaction) | Specific numbers trigger credibility |
+| **Quote** | Mirror neurons (empathy) | Use emotional, specific language |
+
 ## Checklist
 
 - [ ] Customer name/company approved for use
@@ -331,3 +383,5 @@ To add a successful case study to the swipe file:
 - [ ] Photos/logos obtained
 - [ ] Brand voice consistent
 - [ ] CTA included
+- [ ] Human authenticity verified
+- [ ] Neuroscience principles applied

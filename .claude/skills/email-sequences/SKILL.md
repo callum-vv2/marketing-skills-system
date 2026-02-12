@@ -33,6 +33,60 @@ Create email sequences that:
 - `source-of-truth/value-proposition.json` - Key messages
 - `source-of-truth/growth-model.json` - Funnel stages
 - `source-of-truth/customer-research.json` - Pain points, JTBD
+- `source-of-truth/tech-stack.md` - Available email tools by venture
+
+## Required References
+
+Before creating sequences, review:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Anti-AI detection**
+- `orchestrator/references/neuroscience-marketing.md` - Email neuroscience (open triggers, action)
+- `orchestrator/references/disruptive-marketing.md` - Provocative email approaches
+
+## Tech Stack Reference
+
+**Before creating sequences, check which email tool the venture uses.**
+
+### Available Email Tools by Venture
+
+| Tool | Venture | Capabilities | Account Owner |
+|------|---------|--------------|---------------|
+| **Mailblue** | Fancard | Automation, sequences, tagging, landing pages | Laura Du Ry |
+| **Mailchimp** | ClubOS, PadelPlay, ve2ventures | Automation, templates, audience management | - |
+| **Mailerlite** | NextPlay | Simple automation, landing pages, pop-ups | Tom van den Beukel |
+| **Resend** | Podcas | Transactional/developer-focused email API | Gerald Ng |
+
+### Tool-Specific Implementation Notes
+
+**Mailblue (Fancard):**
+- Full automation builder available
+- Tag-based segmentation
+- Conditional branching supported
+- Landing page integration
+
+**Mailchimp:**
+- Journey builder for sequences
+- Pre-built templates available
+- A/B testing built-in
+- Basic automation
+
+**Mailerlite:**
+- Simpler automation workflows
+- Good for straightforward sequences
+- Landing page and pop-up integration
+
+**Resend:**
+- API-first approach
+- Best for transactional emails
+- Requires developer integration for sequences
+
+### Tracking Integration
+
+Ensure UTM parameters on all email links for GA4 tracking:
+- `utm_source=email`
+- `utm_medium=[tool_name]`
+- `utm_campaign=[sequence_name]`
+
+Reference `source-of-truth/tech-stack.md` for full integration details.
 
 ## Frameworks to Apply
 
@@ -380,6 +434,28 @@ Hi {{first_name}},
 - [ ] Test full sequence manually
 - [ ] Launch to small segment first
 - [ ] Monitor and optimize
+
+## Human Authenticity Check (MANDATORY)
+
+**Reference:** `orchestrator/references/human-content-guidelines.md`
+
+- [ ] **No AI tells:** Subject lines don't have "Unlock," "Dive in," etc.
+- [ ] **Sounds personal:** Could this be from a real person, not a template?
+- [ ] **Opinion present:** Emails have personality and perspective
+- [ ] **Varied structure:** Not every email same format
+- [ ] **Natural language:** Contractions, casual flow where appropriate
+- [ ] **No "Hope this finds you well":** Just say something interesting
+
+## Neuroscience Check (MANDATORY)
+
+**Reference:** `orchestrator/references/neuroscience-marketing.md`
+
+- [ ] **Subject lines:** Create curiosity gap or self-relevance
+- [ ] **First line:** Hooks attention immediately
+- [ ] **Emotion present:** Each email triggers a feeling
+- [ ] **Easy to scan:** System 1 can grasp quickly
+- [ ] **Clear single action:** One obvious thing to do
+- [ ] **Timing logic:** Sent when brain most receptive
 
 ---
 

@@ -34,6 +34,12 @@ Conduct keyword research that:
 - `source-of-truth/competitor-analysis.json` - Content gaps
 - `source-of-truth/value-proposition.json` - Messaging alignment
 
+## Required References
+
+Before creating keyword strategy, review:
+- `orchestrator/references/human-content-guidelines.md` - Content must not read as AI-generated
+- `orchestrator/references/neuroscience-marketing.md` - Match content to brain processing
+
 ## Frameworks to Apply
 
 ### Brian Dean's Search Intent Model

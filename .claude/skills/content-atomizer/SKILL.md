@@ -31,6 +31,13 @@ Transform long-form content into:
 - `source-of-truth/brand-voice.json` - Voice attributes
 - Content to atomize (article, guide, etc.)
 
+## Required References
+
+Before atomizing content, review:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Anti-AI detection for social**
+- `orchestrator/references/neuroscience-marketing.md` - Scroll-stopping science
+- `orchestrator/references/disruptive-marketing.md` - Unhinged social options
+
 ## Frameworks to Apply
 
 ### Gary Vaynerchuk's Content Pyramid
@@ -602,3 +609,25 @@ When atomizing multiple articles:
 2. Create unified content calendar
 3. Space out similar topics
 4. Track which source each post came from
+
+## Human Authenticity Checklist (MANDATORY)
+
+**Reference:** `orchestrator/references/human-content-guidelines.md`
+
+Before posting any atomized content:
+
+- [ ] **No AI tells:** "Let's dive in," "Here are 3 tips," "In today's..." = DELETE
+- [ ] **Hook sounds human:** Could you say this to a friend?
+- [ ] **Opinion present:** Takes a stance, not just information
+- [ ] **Platform-native:** Sounds like content FOR that platform
+- [ ] **Varied formats:** Not every post is same structure
+
+## Neuroscience Check (MANDATORY)
+
+**Reference:** `orchestrator/references/neuroscience-marketing.md`
+
+- [ ] **3-second hook:** Will this stop the scroll?
+- [ ] **System 1 readable:** Can grasp in a glance
+- [ ] **Emotional resonance:** Creates feeling, not just info
+- [ ] **Pattern interrupt:** Stands out from typical feed content
+- [ ] **Memorable:** Distinctive enough to recall later

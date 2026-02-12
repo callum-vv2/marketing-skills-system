@@ -32,6 +32,13 @@ Create newsletters that:
 - Atomized content if available
 - Recent blog posts/content to reference
 
+## Required References
+
+Before creating newsletter, review:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Must sound human**
+- `orchestrator/references/neuroscience-marketing.md` - Open rates, engagement science
+- `orchestrator/references/disruptive-marketing.md` - Bold newsletter approaches
+
 ## Frameworks to Apply
 
 ### Ann Handley's Newsletter Philosophy

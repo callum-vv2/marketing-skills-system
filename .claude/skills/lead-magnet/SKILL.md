@@ -34,6 +34,13 @@ Create lead magnets that:
 - `source-of-truth/value-proposition.json` - Core value messaging
 - `source-of-truth/customer-research.json` - Pain points, JTBD
 
+## Required References
+
+Before creating lead magnets, review:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Anti-AI detection**
+- `orchestrator/references/neuroscience-marketing.md` - Value perception, action triggers
+- `orchestrator/references/disruptive-marketing.md` - Unconventional lead magnet approaches
+
 ## Frameworks to Apply
 
 ### Russell Brunson's Value Ladder

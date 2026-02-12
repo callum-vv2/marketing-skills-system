@@ -27,6 +27,13 @@ Review copy for:
 - `source-of-truth/value-proposition.json` - Messaging alignment
 - `source-of-truth/customer-research.json` - Customer language
 
+## Required References
+
+Before reviewing copy, load these frameworks:
+- `orchestrator/references/human-content-guidelines.md` - **CRITICAL: Primary AI detection checklist**
+- `orchestrator/references/neuroscience-marketing.md` - Brain science validation
+- `orchestrator/references/disruptive-marketing.md` - For bold/challenger brand reviews
+
 ## Review Frameworks
 
 ### Brand Voice Check
@@ -63,6 +70,35 @@ Compare against voice guidelines:
 - Punctuation
 - Formatting consistency
 - Link accuracy
+
+### Human Authenticity Check (CRITICAL)
+**Reference:** `orchestrator/references/human-content-guidelines.md`
+
+Every review MUST check for AI-generated content markers:
+
+| Category | Red Flags to Catch |
+|----------|-------------------|
+| **AI Phrases** | "Dive in," "Let's explore," "In today's fast-paced world" |
+| **Corporate Filler** | "Leverage," "utilize," "robust," "seamless," "cutting-edge" |
+| **Transitions** | "Furthermore," "Moreover," "Additionally" (instead of just "And") |
+| **Structure** | Same 3-point pattern repeated; predictable bullet lists |
+| **Emotion** | Lacks opinion; hedges everything; never takes a stance |
+| **Specificity** | Generic examples; no concrete details; placeholder language |
+
+**Mark any AI content for immediate revision.**
+
+### Neuroscience Validation
+**Reference:** `orchestrator/references/neuroscience-marketing.md`
+
+Check copy against brain science principles:
+
+| Principle | Review Question |
+|-----------|-----------------|
+| **Attention** | Does it grab attention in <3 seconds? |
+| **Cognitive Load** | Is it easy to process (System 1)? |
+| **Emotion** | Does it create feeling before logic? |
+| **Memory** | Is it distinctive enough to recall? |
+| **Action** | Is the CTA frictionless? |
 
 ## Review Depth Levels
 

@@ -28,6 +28,13 @@ Create ad copy that:
 - `source-of-truth/customer-research.json` - Pain points, desires
 - `source-of-truth/tech-stack.md` - Available ad platforms by venture
 
+## Required References
+
+Before creating ads, review:
+- `orchestrator/references/neuroscience-marketing.md` - 3-second rule, attention science
+- `orchestrator/references/human-content-guidelines.md` - Authentic copy (no AI tells)
+- `orchestrator/references/disruptive-marketing.md` - Provocative ad approaches
+
 ## Tech Stack Reference
 
 **Before creating ads, check which platforms are available for the venture.**
@@ -657,3 +664,18 @@ To add a high-performing ad to the swipe file:
 - [ ] Landing page matches ad message
 - [ ] Tracking parameters set
 - [ ] Complies with platform policies
+
+## Human Authenticity Check
+
+- [ ] No AI crutch phrases (leverage, unlock, comprehensive)
+- [ ] Sounds like a person, not a brand template
+- [ ] Has personality appropriate to platform
+- [ ] Specific, not generic claims
+
+## Neuroscience Validation
+
+- [ ] **3-second test:** Hook works instantly
+- [ ] **System 1 appeal:** Emotional, not just rational
+- [ ] **Pattern interrupt:** Stands out from other ads
+- [ ] **Cognitive ease:** Easy to process quickly
+- [ ] **Clear action:** Brain knows what to do next

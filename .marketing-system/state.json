@@ -1,0 +1,172 @@
+{
+  "system_version": "1.0.0",
+  "last_evaluated": null,
+  "skills": {
+    "competitor-analysis": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "downstream_consumers": ["customer-research", "market-positioning", "positioning-angles"]
+    },
+    "customer-research": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["competitor-analysis"],
+      "downstream_consumers": ["market-positioning", "value-proposition", "keyword-research", "direct-response-copy", "positioning-angles", "case-study"]
+    },
+    "market-positioning": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["competitor-analysis", "customer-research"],
+      "downstream_consumers": ["value-proposition", "brand-strategy", "positioning-angles"]
+    },
+    "growth-model": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["competitor-analysis", "customer-research"],
+      "downstream_consumers": ["lead-magnet", "email-sequences"]
+    },
+    "value-proposition": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["market-positioning", "customer-research"],
+      "downstream_consumers": ["brand-strategy", "positioning-angles", "email-sequences", "lead-magnet"]
+    },
+    "brand-strategy": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["market-positioning", "value-proposition", "customer-research"],
+      "downstream_consumers": ["brand-voice"]
+    },
+    "brand-voice": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-strategy", "customer-research"],
+      "downstream_consumers": ["seo-content", "direct-response-copy", "content-atomizer", "email-sequences", "newsletter", "lead-magnet", "case-study", "ad-copy", "copy-review"]
+    },
+    "keyword-research": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["customer-research", "competitor-analysis", "value-proposition"],
+      "downstream_consumers": ["seo-content", "lead-magnet"]
+    },
+    "positioning-angles": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["market-positioning", "value-proposition", "customer-research"],
+      "downstream_consumers": ["seo-content", "direct-response-copy", "ad-copy"]
+    },
+    "seo-content": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["keyword-research", "brand-voice", "positioning-angles"],
+      "downstream_consumers": ["content-atomizer"]
+    },
+    "direct-response-copy": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-voice", "positioning-angles", "customer-research"],
+      "downstream_consumers": []
+    },
+    "content-atomizer": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["seo-content", "brand-voice"],
+      "downstream_consumers": ["newsletter"]
+    },
+    "email-sequences": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-voice", "value-proposition", "growth-model"],
+      "downstream_consumers": []
+    },
+    "newsletter": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["content-atomizer", "brand-voice"],
+      "downstream_consumers": []
+    },
+    "lead-magnet": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["keyword-research", "growth-model", "value-proposition"],
+      "downstream_consumers": []
+    },
+    "case-study": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-voice", "customer-research"],
+      "downstream_consumers": ["content-atomizer"]
+    },
+    "ad-copy": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-voice", "positioning-angles"],
+      "downstream_consumers": []
+    },
+    "copy-review": {
+      "status": "not_started",
+      "version": null,
+      "last_updated": null,
+      "output_files": [],
+      "quality_score": null,
+      "upstream_dependencies": ["brand-voice"],
+      "downstream_consumers": []
+    }
+  },
+  "active_campaign": null,
+  "update_log_summary": {
+    "total_updates": 0,
+    "last_update": null
+  }
+}

@@ -422,12 +422,171 @@ For each piece of source content:
 - Captions matter (watch without sound)
 - Trend-aware when relevant
 
+---
+
+## Unhinged Content Mode
+
+**Reference:** See `orchestrator/references/disruptive-marketing.md` and check brand-strategy `brand_boldness.positioning_mode` for guidance.
+
+*For brands with boldness score 21+ (Provocateur mode) or explicit "unhinged" social strategy*
+
+### What "Unhinged" Means
+
+Unhinged ≠ offensive. Unhinged = unexpectedly bold, chaotic energy, breaking the corporate fourth wall, treating social like entertainment rather than marketing.
+
+**Examples of Unhinged Done Right:**
+- Duolingo's threatening owl TikToks
+- Wendy's roasting competitors and customers
+- Nutter Butter's existential nightmare content
+- RyanAir self-deprecating customer service memes
+- Liquid Death's fake death metal content
+
+### Unhinged Content Principles
+
+**The Formula:**
+```
+Unhinged = (Entertainment Value × Brand Personality) - Corporate Polish
+```
+
+**Characteristics:**
+- Feels like a person, not a brand
+- Self-aware about being a brand
+- Takes creative risks
+- Platform-native (not cross-posted corporate content)
+- Interacts with other brands/users unexpectedly
+
+### Unhinged by Platform
+
+**Twitter/X Unhinged:**
+| Tactic | Example |
+|--------|---------|
+| Roast replies | Reply to haters with wit, not PR speak |
+| Brand beef | Playful back-and-forth with "rival" brands |
+| Unhinged threads | Existential content from brand's POV |
+| Quote tweet energy | React to content like a person would |
+| Self-aware ads | "Yes this is marketing. Anyway..." |
+
+**TikTok Unhinged:**
+| Tactic | Example |
+|--------|---------|
+| Mascot content | Character takes over, does unexpected things |
+| Trend hijacking | Jump on trends in brand-appropriate but weird way |
+| Employee chaos | "The intern posted this" energy |
+| POV format | "POV: You're our competitor's CEO watching this" |
+| Sound trends | Popular sounds with brand twist |
+
+**LinkedIn Unhinged:**
+| Tactic | Example |
+|--------|---------|
+| Anti-LinkedIn posts | "I know we're all tired of LinkedIn posts that..." |
+| Corporate parody | Mock corporate speak while using it |
+| Unfiltered hot takes | Industry opinions without PR review |
+| Behind-the-scenes chaos | "Here's what actually happened in that meeting" |
+| Self-deprecating wins | "We somehow didn't mess this up" |
+
+**Instagram Unhinged:**
+| Tactic | Example |
+|--------|---------|
+| Chaotic carousels | Format-breaking slide decks |
+| Anti-aesthetic | Deliberately ugly, MS Paint energy |
+| Meme reels | Brand-relevant meme content |
+| Story chaos | Interactive but unhinged (polls, questions) |
+
+### Unhinged Hook Formulas
+
+**Twitter/X:**
+- "Normalize [absurd thing]"
+- "No one: / Us: [unhinged behavior]"
+- "[Competitor], you good?"
+- "We're legally required to tell you [thing]"
+- "anyway follow us or don't. we're not your boss"
+
+**TikTok:**
+- "POV: [unexpected scenario]"
+- "Things I did instead of [normal task]"
+- "Every day at [Brand HQ] is [chaos descriptor]"
+- "[Sound trend] but make it [brand context]"
+
+**LinkedIn:**
+- "Hot take that will get me fired:"
+- "Things you won't see other [industry] brands post:"
+- "Our CEO asked me to post something 'viral'"
+- "I'm supposed to make this sound professional but"
+
+### Unhinged Content Calendar Addition
+
+When in unhinged mode, add these post types to rotation:
+
+| Day | Standard Post | Unhinged Variant |
+|-----|---------------|------------------|
+| Mon | Industry insight | Industry hot take |
+| Tue | Product feature | Self-deprecating product take |
+| Wed | Customer success | Unhinged customer interaction screenshot |
+| Thu | How-to content | Chaotic behind-the-scenes |
+| Fri | Weekend CTA | No-CTA pure entertainment |
+
+### Unhinged Response Framework
+
+**When someone tags you:**
+- Standard: Professional acknowledgment
+- Unhinged: Unexpected engagement, humor, or self-deprecation
+
+**When someone complains:**
+- Standard: Apologize, offer to help
+- Unhinged: Acknowledge with humor (carefully), then actually help
+
+**When competitors mention you:**
+- Standard: Ignore or professional response
+- Unhinged: Playful clapback (punch up or sideways, never down)
+
+### Guardrails for Unhinged Content
+
+**Do:**
+- Get leadership buy-in on the STRATEGY (not each post)
+- Have a crisis response plan
+- Know where the line is before approaching it
+- Monitor sentiment closely
+- Celebrate team members who take smart risks
+
+**Don't:**
+- Be offensive for shock value
+- Punch down (attack customers, smaller competitors)
+- Go political unless brand-aligned
+- Abandon helpfulness (chaos + actually useful)
+- Let unhinged become the only mode
+
+### Measuring Unhinged Success
+
+| Metric | Why It Matters |
+|--------|----------------|
+| Engagement rate | Are people interacting? |
+| Share/retweet rate | Is it spread-worthy? |
+| Comment sentiment | Laughing with you or at you? |
+| Brand search lift | Are people Googling you after? |
+| Follower quality | Gaining relevant followers? |
+
+**Red Flags to Watch:**
+- Consistent negative sentiment
+- "This isn't funny" comments
+- Unfollows accelerating
+- Press coverage that's bad-bad (not good-bad)
+
 ## Brands to Study (Reference Examples)
 
+### Standard Content Excellence
 - **Alex Hormozi** - Master of content multiplication
 - **Justin Welsh** - LinkedIn post structure
 - **Sahil Bloom** - Twitter threads
 - **Gary Vee** - Multi-platform repurposing
+
+### Unhinged Social Masters
+- **Duolingo** - TikTok chaos, mascot-driven content, threatens users
+- **Wendy's** - Twitter roasts, competitor burns, real-time wit
+- **RyanAir** - Self-deprecating, customer trolling, owns the hate
+- **Nutter Butter** - Existential horror content, nightmare fuel
+- **Liquid Death** - Death metal brand voice, fake commercials
+- **Scrub Daddy** - Chaotic personality, cross-brand collabs
+- **Chipotle** - TikTok-native, employee content, trend-savvy
 
 ## After Completion
 

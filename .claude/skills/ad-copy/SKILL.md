@@ -26,6 +26,30 @@ Create ad copy that:
 - `source-of-truth/brand-voice.json` - Voice attributes
 - `source-of-truth/positioning-angles.json` - Angles and headlines
 - `source-of-truth/customer-research.json` - Pain points, desires
+- `source-of-truth/tech-stack.md` - Available ad platforms by venture
+
+## Tech Stack Reference
+
+**Before creating ads, check which platforms are available for the venture.**
+
+### Available Ad Platforms by Venture
+
+| Platform | Ventures Using | Best For |
+|----------|----------------|----------|
+| **Google Ads** | NextPlay, PadelPlay, Podcas | Intent-driven search, remarketing |
+| **META Ads** | NextPlay, PadelPlay, Podcas | Awareness, B2C, lookalike audiences |
+| **TikTok Ads** | PadelPlay, Podcas | Younger demographics, B2C, viral potential |
+
+**Note:** LinkedIn and Twitter/X are documented in specs below but not currently in the tech stack. If needed for B2B campaigns, recommend adding to stack.
+
+### Platform-Specific Tracking Setup
+
+Before launching ads, ensure:
+- **Google Ads**: Link to GA4 for conversion import
+- **META Ads**: Pixel installed, events configured, consider server-side tracking for iOS14+
+- **TikTok Ads**: Pixel installed with event tracking
+
+Reference `source-of-truth/tech-stack.md` for full integration details.
 
 ## Platform Specifications
 
@@ -441,6 +465,165 @@ For each platform, create:
 - **AIDA:** Attention, Interest, Desire, Action
 - **BAB:** Before, After, Bridge
 - **4Ps:** Promise, Picture, Proof, Push
+
+---
+
+## Disruptive Ad Approaches
+
+**Reference:** See `orchestrator/references/disruptive-marketing.md` and check brand-strategy `brand_boldness.positioning_mode` for guidance.
+
+*For brands with boldness score 18+ (Challenger/Provocateur mode)*
+
+### Pattern-Interrupt Tactics
+
+**The Goal:** Stop the scroll by doing the opposite of what every other ad does.
+
+| Tactic | What It Is | Example |
+|--------|------------|---------|
+| **Wrong Tone** | Use unexpected tone for category | Funeral home humor, lawyer memes |
+| **Fourth Wall Break** | Acknowledge it's an ad | "Yes, this is an ad. Here's why you should care anyway." |
+| **Anti-Benefit** | Lead with what you DON'T do | "We won't spam you. That's it. That's the ad." |
+| **Absurdist Hook** | Something so weird they stop | Liquid Death's murder messaging |
+| **Ugly Creative** | Deliberately lo-fi/amateur look | Screenshot aesthetic, MS Paint energy |
+| **Negative CTA** | Tell them NOT to click | "Don't click this unless you're serious about [X]" |
+
+### Provocative Hook Formulas
+
+**Direct Attack:**
+- "Stop using [competitor]. Here's why."
+- "[Industry practice] is a scam. We're different."
+- "Your [current solution] is lying to you."
+
+**Uncomfortable Honesty:**
+- "Most [product category] sucks. Ours might too, but at least..."
+- "We're not for everyone. If you [trait], don't bother."
+- "This won't work if you [common bad behavior]."
+
+**Self-Deprecation:**
+- "We couldn't afford [big thing], so we made [better thing]."
+- "Our competitors have better [X]. We have better [Y]."
+- "We're small. That's why we try harder."
+
+**Sacred Cow Attacks:**
+- "Forget everything you know about [category]."
+- "[Industry 'truth']? That's marketing BS."
+- "The [industry] doesn't want you to know this."
+
+**Polarizing Takes:**
+- "[Hot take]. Fight me."
+- "Unpopular opinion: [stance]"
+- "If you believe [common belief], we're not for you."
+
+### Platform-Specific Provocative Approaches
+
+**Meta (Facebook/Instagram):**
+- Meme formats with brand message
+- UGC-style content (looks native, not ad)
+- Reaction bait headlines
+- Controversial hooks that drive comments (engagement = reach)
+
+**Google Ads:**
+- Competitor name in headlines (if allowed in your market)
+- Negative keywords in copy ("Not another [tired solution]")
+- Question headlines that challenge assumptions
+
+**LinkedIn:**
+- Hot takes on industry practices
+- "I'm tired of seeing [common LinkedIn thing]" opening
+- Anti-corporate corporate messaging
+- Contrarian thought leadership hooks
+
+**Twitter/X:**
+- Quote tweet energy (responding to invisible tweet)
+- Thread hooks with controversial opener
+- Ratio bait that works in your favor
+- Self-aware brand voice
+
+**TikTok:**
+- Duet/stitch native formats
+- Anti-ad ads (acknowledge TikTok context)
+- Trend hijacking with brand twist
+- POV hooks with unexpected angle
+
+### Provocative Ad Examples
+
+**Self-Deprecating:**
+```
+We're not the cheapest.
+We're not the fastest.
+We're not even the prettiest.
+
+But we're the only one that [genuine differentiator].
+
+Sometimes that's enough.
+```
+
+**Sacred Cow Attack:**
+```
+"Best practices" are why your [outcome] sucks.
+
+Everyone follows them.
+Everyone gets the same mediocre results.
+
+We tried something different.
+[Specific result].
+
+Ready to stop being average?
+```
+
+**Direct Competitor Call:**
+```
+[Competitor] charges $X for [thing].
+We charge $Y for the same thing, plus [bonus].
+
+This isn't a mystery.
+We just want your business more than they do.
+```
+
+**Anti-Marketing:**
+```
+This is an ad.
+
+You're going to scroll past it.
+I would too.
+
+But if you're actually struggling with [pain point],
+maybe don't scroll past this one.
+
+[Offer]
+```
+
+### Guardrails for Provocative Ads
+
+**Do:**
+- Test provocative vs. standard to measure lift
+- Have legal review anything that names competitors
+- Start with smaller budgets to test reaction
+- Monitor comments for sentiment
+- Be ready to pull if it backfires
+
+**Don't:**
+- Punch down (attack smaller competitors or customers)
+- Make claims you can't back up
+- Be offensive for shock value
+- Ignore platform policies
+- Go provocative without leadership buy-in
+
+### A/B Test: Standard vs. Provocative
+
+Always test provocative angles against standard approaches:
+
+| Test | Control (Standard) | Variant (Provocative) |
+|------|-------------------|----------------------|
+| Hook | "[Benefit] made easy" | "Stop doing [thing] wrong" |
+| Tone | Professional, helpful | Bold, challenging |
+| CTA | "Learn more" | "Prove me wrong" |
+
+**Metrics to Watch:**
+- CTR (provocative often wins)
+- CPC (may vary by platform)
+- Conversion rate (the true test)
+- Comment sentiment (are people angry or engaged?)
 
 ## Learn Mode
 

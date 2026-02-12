@@ -138,6 +138,172 @@ Challenge conventional wisdom
 ### 8. Story/Case Study Angles
 Lead with a narrative
 
+---
+
+## Disruptive Angle Categories
+
+**Reference:** See `orchestrator/references/disruptive-marketing.md` for full framework.
+
+*For brands with boldness score 18+ (Challenger/Provocateur mode from brand-strategy)*
+
+### 9. Sacred Cow Slaughter Angles
+Attack unquestioned industry beliefs.
+
+**Process:**
+1. List "truths" everyone in your category accepts
+2. Identify which ones are actually bullshit
+3. Build messaging that exposes them
+
+**Formula:**
+> "Everyone says [sacred cow]. But [why it's wrong]. That's why we [different approach]."
+
+**Examples:**
+- Oatly: "Milk is healthy" → "It's literally for baby cows"
+- Basecamp: "You need more features" → "Less is more"
+- Liquid Death: "Water should be pure/natural" → "Murder your thirst"
+
+**Headlines:**
+- "The [industry] lie everyone believes"
+- "[Sacred cow]? That's what they want you to think"
+- "Why [common practice] is killing your [outcome]"
+- "Stop [accepted behavior]. Here's why."
+
+### 10. Uncomfortable Truth Angles
+Say what everyone thinks but no one admits.
+
+**Formula:**
+> "Let's be honest: [uncomfortable truth]. Most companies [what they do wrong]. We [what you do instead]."
+
+**Examples:**
+- "Your current provider doesn't care about you once you've signed"
+- "Most [product category] exists to extract money, not deliver value"
+- "That 'free trial' is designed to trap you, not help you"
+
+**Headlines:**
+- "The dirty secret of [industry]"
+- "What [competitor type] won't tell you"
+- "Here's the truth no one in [industry] will admit"
+- "We could lie to you. Instead..."
+
+### 11. Self-Deprecation Angles
+Disarm through honesty about your weaknesses.
+
+**Why It Works:**
+- Builds unexpected trust
+- Makes positive claims more believable
+- Humanizes the brand
+- Memorable for being unusual
+
+**Examples:**
+- Avis: "We're #2, so we try harder"
+- VW Beetle: "Think small"
+- Surreal: "We couldn't afford real celebrities"
+- RyanAir: "We know we're cheap. That's the point."
+
+**Headlines:**
+- "We're not for everyone. Here's who we're for."
+- "We suck at [thing]. We're great at [thing]."
+- "Our [weakness]. Your [benefit]."
+- "Yes, we're [honest negative]. But..."
+
+### 12. Enemy Declaration Angles
+Define yourself by what you're against.
+
+**Enemy Types:**
+- **Industry Enemy:** The old way of doing things
+- **Competitor Enemy:** A specific player (careful—punch up)
+- **Conceptual Enemy:** An idea or behavior
+
+**Formula:**
+> "We exist because [enemy] is wrong. [Why it's wrong]. There's a better way."
+
+**Examples:**
+- Drift: "Forms are dead" (enemy: forms/gated content)
+- Basecamp: "Work doesn't have to be crazy" (enemy: hustle culture)
+- Hey.com: "Email sucks" (enemy: traditional email clients)
+
+**Headlines:**
+- "Down with [enemy]"
+- "[Enemy] is dead. Long live [new way]."
+- "We're building the anti-[competitor]"
+- "If you hate [enemy], you'll love this"
+
+### 13. Absurdist/Pattern-Interrupt Angles
+Break format so completely people have to pay attention.
+
+**Tactics:**
+- Non-sequiturs that stop the scroll
+- Wrong tone for category
+- Surreal imagery
+- Breaking fourth wall
+
+**Examples:**
+- Liquid Death: "Don't be scared. It's just water."
+- Nutter Butter: Literal nightmare content
+- Old Spice: "Look at your man, now back to me"
+
+**Headlines:**
+- [Something so weird they have to click]
+- "This is an ad. You should click it anyway."
+- "[Random non-sequitur]. Also, we make [product]."
+- "We paid good money for you to see this. Don't waste it."
+
+### 14. Polarizing Take Angles
+Say something that will make some people angry and others love you.
+
+**The Math:**
+Strong opinion → Some hate it → Others love it → Creates conversation → Builds tribe
+
+**Formula:**
+> "[Provocative statement]. If you disagree, we're not for you. If you agree, welcome home."
+
+**Examples:**
+- "If you need a meeting to make a decision, you shouldn't make it"
+- "Busy is a choice. Stop bragging about it."
+- "Most marketing is a waste of money. Including yours."
+
+**Headlines:**
+- "[Hot take]. There, I said it."
+- "Unpopular opinion: [controversial stance]"
+- "[Statement] and I'm tired of pretending otherwise"
+- "This will make some people angry. Good."
+
+### 15. Anti-Marketing Angles
+Acknowledge the marketing game and break it.
+
+**Why It Works:**
+- Audiences are ad-fatigued and cynical
+- Self-awareness builds trust
+- Meta-commentary stands out
+
+**Examples:**
+- "This is the part where we tell you why we're great..."
+- "You've seen this ad format before. Here's why ours is different."
+- Cards Against Humanity's anti-Black Friday campaigns
+
+**Headlines:**
+- "Yes, this is an ad. No, we won't pretend otherwise."
+- "We could show you a testimonial here. Instead..."
+- "The marketing department made me write this."
+- "Skip this ad. (But here's why you shouldn't.)"
+
+---
+
+## Disruptive Angle Decision Tree
+
+```
+Is brand boldness score 18+?
+├── NO → Stick to angles 1-8 (proven, professional)
+└── YES → Continue...
+         │
+         What's your primary goal?
+         ├── Build trust → Self-deprecation angles (11)
+         ├── Differentiate → Sacred cow (9), Enemy (12)
+         ├── Stop the scroll → Absurdist (13), Anti-marketing (15)
+         ├── Build tribe → Polarizing takes (14), Enemy (12)
+         └── Call out industry → Uncomfortable truth (10), Sacred cow (9)
+```
+
 ## Interaction Flow
 
 ### Mode 1: Brainstorming Partner
@@ -236,7 +402,7 @@ Generate 15-20 angles across categories:
       "outside_venue": "Messaging for remote/digital contexts"
     },
     "angles_summary": {
-      "total_angles": 15,
+      "total_angles": 20,
       "by_category": {
         "problem_agitation": 3,
         "transformation": 3,
@@ -244,8 +410,39 @@ Generate 15-20 angles across categories:
         "social_proof": 2,
         "curiosity": 2,
         "fear_risk": 2,
-        "contrarian": 1
-      }
+        "contrarian": 1,
+        "disruptive": 5
+      },
+      "disruptive_angles_included": true,
+      "boldness_mode": "challenger|provocateur"
+    },
+    "disruptive_angles": {
+      "enabled": true,
+      "sacred_cows_attacked": [
+        {
+          "sacred_cow": "Industry belief everyone accepts",
+          "why_bullshit": "Why it's actually wrong",
+          "our_counter": "What we say instead",
+          "angle_id": "angle-X"
+        }
+      ],
+      "uncomfortable_truths": [
+        "Truth 1 no one admits",
+        "Truth 2 everyone avoids"
+      ],
+      "enemies_declared": [
+        {
+          "enemy_type": "industry|competitor|conceptual",
+          "enemy": "What we're against",
+          "why_fight": "Why this enemy matters"
+        }
+      ],
+      "self_deprecation_hooks": [
+        "Honest weakness we lead with"
+      ],
+      "polarizing_takes": [
+        "Hot take that will divide"
+      ]
     },
     "angles": [
       {

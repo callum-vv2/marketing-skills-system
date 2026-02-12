@@ -388,12 +388,193 @@ Create copy following the structure:
 7. **Sales Emails** - Direct response emails
 8. **Video Scripts** - Sales video scripts
 
+---
+
+## Provocative Landing Page Approaches
+
+**Reference:** See `orchestrator/references/disruptive-marketing.md` and check brand-strategy `brand_boldness.positioning_mode` for guidance.
+
+*For brands with boldness score 18+ (Challenger/Provocateur mode)*
+
+### The Provocation Strategy
+
+Standard landing pages: Problem → Solution → Proof → CTA
+Provocative landing pages: **Challenge → Provoke → Differentiate → Convert**
+
+The goal isn't just to convert—it's to make visitors feel something strong enough that they either love you or leave. Polarization beats neutrality.
+
+### Provocative Headline Patterns
+
+**Sacred Cow Attack:**
+- "Everything you know about [X] is wrong"
+- "[Common advice] is why you're failing"
+- "Stop [industry standard]. Here's what works."
+
+**Direct Competitor Challenge:**
+- "[Competitor]'s approach is broken. Here's proof."
+- "Why we built the anti-[competitor]"
+- "Leaving [competitor]? You're not alone."
+
+**Uncomfortable Truth:**
+- "Your [solution category] is lying to you"
+- "The [industry] secret nobody wants you to know"
+- "Most [products] are designed to fail. Ours isn't."
+
+**Deliberate Disqualification:**
+- "This isn't for everyone. Here's who should leave."
+- "If you [wrong behavior], don't sign up."
+- "Warning: Only for [specific type of person]"
+
+**Self-Deprecating Confidence:**
+- "We're not the prettiest. We're the one that works."
+- "Our UI is ugly. Our results aren't."
+- "We suck at marketing. We're great at [actual value]."
+
+### Provocative Page Sections
+
+**The "Anti-Hero" Opening:**
+Instead of "We help you [benefit]..."
+```
+Look, you've probably seen 100 landing pages that promise [benefit].
+
+Most of them are lying.
+
+Here's what they won't tell you: [uncomfortable truth about industry].
+
+We're different because we [genuine differentiation], not because our marketing team told us to say it.
+```
+
+**The Competitor Takedown (Use Carefully):**
+```
+## Why [Your Product] vs. [Competitor]?
+
+Let's be honest about what [Competitor] gets wrong:
+
+- [Specific flaw 1]
+- [Specific flaw 2]
+- [Specific flaw 3]
+
+We built [Product] because we were tired of [the problem with competitors].
+
+Here's what's actually different:
+[Genuine differentiation with proof]
+```
+
+**The "Not For You" Section:**
+```
+## Who This ISN'T For
+
+Don't sign up if you:
+
+❌ [Wrong fit 1]
+❌ [Wrong fit 2]
+❌ [Wrong fit 3]
+
+We'd rather have 100 customers who love us than 1,000 who kind of like us.
+
+Still here? Good. You might be our people.
+```
+
+**The Honest Pricing Section:**
+```
+## Let's Talk About Pricing (Honestly)
+
+You could find cheaper options. Here's why you shouldn't:
+
+[Cheap competitor] charges $X but [honest limitation].
+[Other option] is "free" but [hidden cost].
+
+We charge $[Price] because:
+- [Value point 1]
+- [Value point 2]
+- [Value point 3]
+
+Is that expensive? Depends on what [problem] costs you today.
+```
+
+### Provocative CTA Approaches
+
+**Challenge CTAs:**
+- "Prove me wrong" (instead of "Learn more")
+- "I'm ready to stop [bad behavior]"
+- "Show me what real [X] looks like"
+- "I want the uncomfortable truth"
+
+**Confident CTAs:**
+- "Let's do this"
+- "I'm in"
+- "Stop overthinking, start [action]"
+- "Take my money" (use sparingly)
+
+**Anti-CTAs:**
+- "I'll keep doing it the hard way" (for exit intent)
+- "Maybe later" (honest secondary option)
+- "Nah, I like wasting time" (playful negative)
+
+### Provocative Proof Sections
+
+**Honest Testimonials:**
+Instead of: "Great product! 5 stars!"
+Use: "Skeptical at first because [honest objection]. Then [specific result]."
+
+**Failure Stories:**
+Share what didn't work before you got it right—vulnerability builds trust.
+
+**The "Here's What Could Go Wrong" Section:**
+```
+## Will This Work For You?
+
+Honest answer: Maybe not.
+
+[Product] doesn't work if:
+- [Limitation 1]
+- [Limitation 2]
+
+But if you [right characteristics], our customers see [specific results].
+
+Don't take our word for it: [proof]
+```
+
+### Provocative vs. Standard A/B Tests
+
+Always test provocative against standard:
+
+| Element | Standard | Provocative |
+|---------|----------|-------------|
+| Headline | "The #1 [Product] for [Benefit]" | "[Industry belief] is a lie" |
+| Opening | "We help [audience] achieve [benefit]" | "Let's be honest about [industry problem]" |
+| CTA | "Get started free" | "I'm tired of [problem]" |
+| Guarantee | "30-day money back" | "If it doesn't [result], we'll [extreme action]" |
+
+### Guardrails for Provocative Copy
+
+**Do:**
+- Back up bold claims with proof
+- Punch up (at industry, big competitors, bad practices)
+- Make the alternative to your claim genuinely better
+- Test provocative vs. standard to measure actual conversion
+
+**Don't:**
+- Make claims you can't deliver
+- Attack customers or their choices
+- Be provocative without substance
+- Forget that conversion still matters (entertainment ≠ revenue)
+
 ## Brands to Study (Reference Examples)
 
+### Standard Direct Response Excellence
 - **Basecamp** - Clear, opinionated landing pages
 - **Stripe** - Developer-focused conversion copy
 - **ClickFunnels** - Classic direct response
 - **Superhuman** - Premium, desire-focused copy
+
+### Provocative Landing Page Masters
+- **Basecamp** - "You don't need more features" positioning
+- **Hey.com** - "Email sucks" direct attack
+- **Gumroad** - Radical transparency and anti-VC positioning
+- **Carrd** - Simple, confident, no-BS copy
+- **Linear** - Confident product assertions
+- **Notion** - Bold "all-in-one" claims with proof
 
 ## After Completion
 

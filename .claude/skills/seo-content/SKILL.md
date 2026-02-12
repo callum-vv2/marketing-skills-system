@@ -85,6 +85,70 @@ Create long-form content that:
 - Distribution built-in
 - Repurposing planned
 
+### Programmatic SEO
+
+**What It Is:**
+Creating large numbers of pages from templates + data to capture long-tail search traffic at scale.
+
+**When to Use:**
+- Large keyword universe with patterns (e.g., "[tool] for [use case]")
+- Data that can populate templates (locations, integrations, comparisons)
+- Clear user intent per page variation
+- Resources to create quality at scale
+
+**Page Types:**
+
+| Type | Example | Template |
+|------|---------|----------|
+| **Location pages** | "CRM software in Austin" | [Product] in [City] |
+| **Integration pages** | "Slack + Salesforce integration" | [Tool 1] + [Tool 2] integration |
+| **Comparison pages** | "Notion vs Coda" | [Your product] vs [Competitor] |
+| **Alternative pages** | "Best Mailchimp alternatives" | Best [Competitor] alternatives |
+| **Use case pages** | "CRM for real estate" | [Product] for [Industry/Use Case] |
+| **Template/resource pages** | "Sales email templates" | [Type] templates for [Use case] |
+
+**Quality Requirements:**
+- Unique, valuable content per page (not just swapped variables)
+- Clear user intent match
+- Internal linking strategy
+- No thin/duplicate content
+- Schema markup for each page type
+
+**Programmatic SEO Architecture:**
+
+```
+Domain
+├── /vs/
+│   ├── /vs/competitor-1/
+│   ├── /vs/competitor-2/
+│   └── /vs/competitor-3/
+├── /alternatives/
+│   ├── /alternatives/competitor-1-alternatives/
+│   └── /alternatives/competitor-2-alternatives/
+├── /integrations/
+│   ├── /integrations/tool-1/
+│   └── /integrations/tool-2/
+├── /use-cases/
+│   ├── /use-cases/industry-1/
+│   └── /use-cases/industry-2/
+└── /templates/
+    ├── /templates/type-1/
+    └── /templates/type-2/
+```
+
+**Internal Linking Strategy:**
+- Hub pages link to all variations
+- Variations link back to hub
+- Cross-link related variations
+- Link from blog content to programmatic pages
+
+**Avoiding Pitfalls:**
+- Don't create pages without search volume
+- Don't sacrifice quality for quantity
+- Don't neglect unique value per page
+- Don't ignore technical SEO (crawlability, indexation)
+- Do add unique insights, data, or angles per page
+
 ## Interaction Flow
 
 ### Mode 1: Brainstorming Partner

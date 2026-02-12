@@ -20,6 +20,7 @@ Define growth strategy that:
 3. Defines channel strategy across acquisition, engagement, monetization
 4. Establishes funnel architecture and key metrics
 5. Creates experimentation roadmap
+6. Plans product and feature launch strategies
 
 ## Dependencies
 
@@ -95,6 +96,71 @@ Define growth strategy that:
 - Cost to acquire
 - Time to scale
 - Sustainability
+
+### Launch Strategy Framework
+
+**Launch Types:**
+
+| Type | Timeline | Best For |
+|------|----------|----------|
+| **Big Bang** | Single moment, max impact | Major product, funding announcement |
+| **Rolling Thunder** | Phased over weeks | Feature releases, market expansion |
+| **Soft Launch** | Quiet release, iterate | MVP, beta testing |
+| **Waitlist Launch** | Build anticipation | Limited capacity, exclusivity |
+
+**Launch Phases:**
+
+**Phase 1: Pre-Launch (4-8 weeks before)**
+- Build waitlist/early access list
+- Seed content and teasers
+- Brief press/influencers under embargo
+- Prepare launch assets (copy, visuals, video)
+- Set up tracking and analytics
+- Test all systems and flows
+
+**Phase 2: Launch Week**
+| Day | Activity |
+|-----|----------|
+| D-3 | Final teaser, "something big coming" |
+| D-1 | Embargo lifts for press/influencers |
+| D-Day | Announce everywhere simultaneously |
+| D+1 | Share early results, social proof |
+| D+2 | Customer stories, behind-the-scenes |
+| D+3 | Address FAQs, objections |
+| D+7 | Week 1 recap, momentum content |
+
+**Phase 3: Post-Launch (2-4 weeks after)**
+- Collect and share testimonials
+- Publish case studies
+- Run retargeting campaigns
+- Analyze what worked/didn't
+- Plan follow-up launches
+
+**Launch Channel Coordination:**
+
+| Channel | Pre-Launch | Launch Day | Post-Launch |
+|---------|------------|------------|-------------|
+| Email | Teaser sequence | Announcement | Follow-up sequence |
+| Social | Countdown, teasers | Live updates, engagement | UGC, results |
+| PR | Briefings, embargoes | Press release | Follow-up stories |
+| Product | Beta access | Full release | Feedback collection |
+| Paid | Awareness | Conversion | Retargeting |
+| Community | Sneak peeks | Celebration | Support |
+
+**Launch Messaging Angles:**
+1. **Problem-Solution** - The pain you're solving
+2. **New Category** - Why this is different
+3. **Social Proof** - Who's already using it
+4. **Transformation** - Before/after
+5. **Urgency** - Why now matters
+
+**Launch Metrics to Track:**
+- Signups/conversions during launch period
+- Traffic sources and attribution
+- Social engagement and sentiment
+- Press coverage and backlinks
+- Waitlist conversion rate
+- Time to first value
 
 ## Interaction Flow
 
@@ -260,6 +326,29 @@ Develop growth model through:
       ],
       "next_quarter": [],
       "future": []
+    },
+    "launch_strategy": {
+      "launch_type": "big-bang|rolling-thunder|soft-launch|waitlist",
+      "pre_launch": {
+        "timeline": "X weeks before",
+        "activities": ["Build waitlist", "Seed content", "Brief press"]
+      },
+      "launch_week": {
+        "d_minus_3": "Final teaser",
+        "d_minus_1": "Embargo lifts",
+        "d_day": "Full announcement",
+        "d_plus_1": "Social proof sharing",
+        "d_plus_7": "Week 1 recap"
+      },
+      "post_launch": {
+        "activities": ["Collect testimonials", "Case studies", "Retargeting"]
+      },
+      "channel_plan": {
+        "email": "sequence plan",
+        "social": "content plan",
+        "pr": "outreach plan",
+        "paid": "campaign plan"
+      }
     }
   },
   "suggested_next": ["lead-magnet", "email-sequences"],

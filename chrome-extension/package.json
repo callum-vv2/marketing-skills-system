@@ -1,0 +1,5 @@
+{
+  "name": "swipe-file-collector-extension",
+  "type": "module",
+  "private": true
+}

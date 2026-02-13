@@ -1,0 +1,430 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #1a1a1a;
+  background: #fff;
+}
+
+.container {
+  width: 420px;
+  max-height: 580px;
+  overflow-y: auto;
+  padding: 14px;
+}
+
+header {
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Project Selector */
+.project-selector {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.project-selector select {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: inherit;
+  background: #fff;
+  cursor: pointer;
+}
+
+.project-selector select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+.add-project-btn {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.add-project-btn:hover {
+  background: #f5f5f5;
+  border-color: #bbb;
+  color: #333;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 380px;
+  padding: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #666;
+  cursor: pointer;
+  padding: 0 4px;
+}
+
+.close-btn:hover {
+  color: #333;
+}
+
+.hint {
+  font-size: 10px;
+  color: #888;
+  margin-top: 3px;
+  display: block;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.status.connected {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status.disconnected {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.step {
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 7px 9px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: inherit;
+  background: #fff;
+  resize: vertical;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+input[readonly] {
+  background: #f5f5f5;
+  color: #666;
+}
+
+/* Toggle Group */
+.toggle-group {
+  display: flex;
+  gap: 8px;
+}
+
+.toggle-btn {
+  flex: 1;
+  padding: 7px 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.toggle-btn:hover {
+  border-color: #bbb;
+}
+
+.toggle-btn.active[data-sentiment="like"] {
+  border-color: #22c55e;
+  background: #dcfce7;
+  color: #166534;
+}
+
+.toggle-btn.active[data-sentiment="dislike"] {
+  border-color: #ef4444;
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+/* Primary Button */
+.primary-btn {
+  width: 100%;
+  padding: 10px 14px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 6px;
+}
+
+.primary-btn:hover {
+  background: #2563eb;
+}
+
+.primary-btn:disabled {
+  background: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Loading spinner */
+.btn-loading {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.spinner {
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Button success state */
+.primary-btn.success-state {
+  background: #22c55e;
+  pointer-events: none;
+}
+
+.primary-btn.success-state:hover {
+  background: #22c55e;
+}
+
+/* Button error state */
+.primary-btn.error-state {
+  background: #ef4444;
+}
+
+.primary-btn.error-state:hover {
+  background: #dc2626;
+}
+
+.primary-btn.dislike-mode {
+  background: #ef4444;
+}
+
+.primary-btn.dislike-mode:hover {
+  background: #dc2626;
+}
+
+/* Preview Header */
+.preview-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.back-btn {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background: #f5f5f5;
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: #fafafa;
+}
+
+.skill-tag:hover {
+  border-color: #bbb;
+}
+
+.skill-tag.selected {
+  background: #dbeafe;
+  border-color: #3b82f6;
+  color: #1d4ed8;
+}
+
+/* Skill tags are clickable divs - no hidden inputs needed */
+
+/* Sections */
+.section {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #eee;
+}
+
+/* Result */
+.result {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.result.success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.result.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.skills-list {
+  margin-top: 6px;
+  padding-left: 16px;
+}
+
+.skills-list li {
+  margin: 2px 0;
+}
+
+/* Scrollbar */
+.container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}

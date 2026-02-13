@@ -1,0 +1,10 @@
+{
+  "projects": [
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "path": "/Users/callumparton/Desktop/Commercial"
+    }
+  ],
+  "activeProjectId": "commercial"
+}

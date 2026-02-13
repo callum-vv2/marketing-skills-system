@@ -13,3 +13,5 @@
 # Keep empty directories
 !campaigns/.gitkeep
 !source-of-truth/.gitkeep
+swipe-server/.env
+swipe-server/node_modules/

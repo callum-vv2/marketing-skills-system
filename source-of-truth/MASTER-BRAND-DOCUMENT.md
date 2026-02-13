@@ -16,6 +16,7 @@
 | Competition | `/competitor-analysis` | competitor-analysis |
 | Messaging | `/positioning-angles` | positioning-angles |
 | Growth Model | `/growth-model` | growth-model |
+| Content Strategy | `/content-strategy` | content-strategy |
 
 Run `/orchestrator compile` to regenerate this document from all source-of-truth files.
 
@@ -271,27 +272,145 @@ Run `/orchestrator compile` to regenerate this document from all source-of-truth
 
 *Source: `/growth-model` → `source-of-truth/growth-model.md`*
 
-### GTM Strategy
+### Selected Growth Model
 
-[Overview of go-to-market approach]
+**Primary Model:** [Sales-Led / Product-Led / Growth-Led / Marketing-Led / E-commerce-Led]
+
+**Secondary Model:** [If hybrid]
+
+**Rationale:**
+> [Why this model fits the business]
+
+**Website Role:**
+> [How the website supports this growth model]
+
+### Goals & Objectives
+
+**Objective:** [High-level objective statement]
+
+| **Timeframe** | **B2B Goals** | **B2C Goals** |
+|---------------|---------------|---------------|
+| **Q1** | [Goal] | [Goal] |
+| **Q2** | [Goal] | [Goal] |
+| **Q3** | [Goal] | [Goal] |
+| **Q4** | [Goal] | [Goal] |
+
+### KPIs
+
+| **B2B KPIs** | **B2C KPIs** |
+|--------------|--------------|
+| [KPI 1] | [KPI 1] |
+| [KPI 2] | [KPI 2] |
+| [KPI 3] | [KPI 3] |
+
+### Activities
+
+| **Marketing Activities** | **Sales Activities** |
+|--------------------------|---------------------|
+| [Activity 1] | [Activity 1] |
+| [Activity 2] | [Activity 2] |
+| [Activity 3] | [Activity 3] |
+
+### Channels
+
+**B2B Channels:**
+
+| Channel | Objective |
+|---------|-----------|
+| [Channel 1] | [Objective] |
+| [Channel 2] | [Objective] |
+
+**B2C Channels:**
+
+| Channel | Objective |
+|---------|-----------|
+| [Channel 1] | [Objective] |
+| [Channel 2] | [Objective] |
 
 ### Growth Loops
 
-[Description of primary growth mechanisms]
+[Description of primary and secondary growth loops]
 
-### Key Metrics
+### Unit Economics
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| [Metric 1] | [Target] | [Current] |
-| [Metric 2] | [Target] | [Current] |
+| Metric | Current | Target |
+|--------|---------|--------|
+| CAC | $[X] | $[X] |
+| LTV | $[X] | $[X] |
+| LTV:CAC | [X]:1 | 3:1+ |
 
-### Channel Strategy
+---
 
-| Channel | Priority | Approach |
-|---------|----------|----------|
-| [Channel 1] | [High/Med/Low] | [Approach] |
-| [Channel 2] | [High/Med/Low] | [Approach] |
+# **Content Strategy**
+
+*Source: `/content-strategy` → `source-of-truth/content-strategy.md`*
+
+### Content Mission Statement
+
+> **[Content mission statement - Who we create for, what we deliver, what they gain]**
+
+### Content Pillars
+
+| Pillar | Description | Content Examples |
+|--------|-------------|------------------|
+| [Pillar 1] | [What this pillar means] | [Examples] |
+| [Pillar 2] | [What this pillar means] | [Examples] |
+
+### Content Objectives
+
+| Priority | Objective | Segments Served | Success Metric |
+|----------|-----------|-----------------|----------------|
+| Primary | [Objective 1] | [Segments] | [Metric] |
+| Primary | [Objective 2] | [Segments] | [Metric] |
+| Secondary | [Objective 3] | [Segments] | [Metric] |
+
+### Content KPIs
+
+**B2B:**
+
+| Metric | Target | Frequency |
+|--------|--------|-----------|
+| [Metric 1] | [Target] | [Frequency] |
+| [Metric 2] | [Target] | [Frequency] |
+
+**B2C:**
+
+| Metric | Target | Frequency |
+|--------|--------|-----------|
+| [Metric 1] | [Target] | [Frequency] |
+| [Metric 2] | [Target] | [Frequency] |
+
+### Content Themes & Formats
+
+**B2B Content:**
+
+| Theme | Format(s) | Frequency | Distribution |
+|-------|-----------|-----------|--------------|
+| [Theme 1] | [Formats] | [Frequency] | [Channels] |
+| [Theme 2] | [Formats] | [Frequency] | [Channels] |
+
+**B2C Content:**
+
+| Theme | Format(s) | Frequency | Distribution |
+|-------|-----------|-----------|--------------|
+| [Theme 1] | [Formats] | [Frequency] | [Channels] |
+
+### Content Tactics
+
+| Tactic | Priority | Expected Impact |
+|--------|----------|-----------------|
+| [Tactic 1] | [Priority] | [Impact] |
+| [Tactic 2] | [Priority] | [Impact] |
+
+### Editorial Calendar
+
+*See `source-of-truth/content-strategy.md` for full monthly calendar*
+
+| Month | Theme | Key Content |
+|-------|-------|-------------|
+| [Month 1] | [Theme] | [Key pieces] |
+| [Month 2] | [Theme] | [Key pieces] |
+| [Month 3] | [Theme] | [Key pieces] |
 
 ---
 

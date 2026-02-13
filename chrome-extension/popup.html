@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swipe File Collector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1>Swipe File Collector</h1>
+        <div id="status" class="status"></div>
+      </div>
+      <div class="project-selector">
+        <select id="projectSelect"></select>
+        <button type="button" id="addProjectBtn" class="add-project-btn" title="Add Project">+</button>
+      </div>
+    </header>
+
+    <!-- Add Project Modal -->
+    <div id="addProjectModal" class="modal" style="display: none;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Add Project</h2>
+          <button type="button" id="closeModalBtn" class="close-btn">&times;</button>
+        </div>
+        <form id="addProjectForm">
+          <div class="field">
+            <label for="newProjectName">Project Name</label>
+            <input type="text" id="newProjectName" placeholder="My Brand" required>
+          </div>
+          <div class="field">
+            <label for="newProjectPath">Project Path</label>
+            <input type="text" id="newProjectPath" placeholder="/Users/you/Projects/MyBrand" required>
+            <span class="hint">Must contain .claude/skills/ directory</span>
+          </div>
+          <div id="addProjectError" class="error-message" style="display: none;"></div>
+          <button type="submit" id="addProjectSubmitBtn" class="primary-btn">
+            <span class="btn-text">Add Project</span>
+            <span class="btn-loading" style="display: none;"><span class="spinner"></span> Adding...</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- STEP 1: Initial Input -->
+    <div id="step1" class="step">
+      <form id="analyzeForm">
+        <div class="field">
+          <label for="url">URL</label>
+          <input type="text" id="url" readonly>
+        </div>
+
+        <div class="field">
+          <label>What's your take?</label>
+          <div class="toggle-group">
+            <button type="button" class="toggle-btn active" data-sentiment="like" id="likeBtn">
+              👍 I like this
+            </button>
+            <button type="button" class="toggle-btn" data-sentiment="dislike" id="dislikeBtn">
+              👎 Avoid this
+            </button>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="notes" id="notesLabel">What do you like about this?</label>
+          <textarea id="notes" rows="3" placeholder="e.g., Love the headline and how they position themselves..."></textarea>
+        </div>
+
+        <button type="submit" id="analyzeBtn" class="primary-btn">
+          <span class="btn-text">Analyze Content</span>
+          <span class="btn-loading" style="display: none;"><span class="spinner"></span> Analyzing...</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- STEP 2: Preview & Edit -->
+    <div id="step2" class="step" style="display: none;">
+      <div class="preview-header">
+        <button type="button" id="backBtn" class="back-btn">← Back</button>
+        <h2>Review & Edit</h2>
+      </div>
+
+      <form id="saveForm">
+        <!-- Skills Selection -->
+        <div class="field">
+          <label>Save to Skills</label>
+          <div id="skillsGrid" class="skills-grid"></div>
+        </div>
+
+        <!-- Content Type -->
+        <div class="field">
+          <label for="contentType">Content Type</label>
+          <input type="text" id="contentType">
+        </div>
+
+        <!-- Extracted Content Section -->
+        <div class="section">
+          <h3>Extracted Content</h3>
+
+          <div class="field">
+            <label for="headline">Headline</label>
+            <input type="text" id="headline" placeholder="Main headline or hook">
+          </div>
+
+          <div class="field">
+            <label for="subheadline">Subheadline</label>
+            <input type="text" id="subheadline" placeholder="Supporting headline">
+          </div>
+
+          <div class="field">
+            <label for="bodyCopy">Body Copy</label>
+            <textarea id="bodyCopy" rows="4" placeholder="Main messaging or copy"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="cta">Call-to-Action</label>
+            <input type="text" id="cta" placeholder="CTA text">
+          </div>
+
+          <div class="field">
+            <label for="keyPhrases">Key Phrases (comma-separated)</label>
+            <input type="text" id="keyPhrases" placeholder="phrase one, phrase two, phrase three">
+          </div>
+        </div>
+
+        <!-- Analysis Section -->
+        <div class="section">
+          <h3>Analysis</h3>
+
+          <div class="field">
+            <label for="whyItWorks" id="whyItWorksLabel">Why it works</label>
+            <textarea id="whyItWorks" rows="3"></textarea>
+          </div>
+
+          <div class="field">
+            <label for="targetAudience">Target Audience</label>
+            <input type="text" id="targetAudience" placeholder="Who this is targeting">
+          </div>
+
+          <div class="field">
+            <label for="toneAndVoice">Tone & Voice</label>
+            <input type="text" id="toneAndVoice" placeholder="e.g., Conversational and confident">
+          </div>
+
+          <div class="field">
+            <label for="techniques">Techniques Used (comma-separated)</label>
+            <input type="text" id="techniques" placeholder="social proof, urgency, specificity">
+          </div>
+
+          <div class="field">
+            <label for="emotionalTriggers">Emotional Triggers (comma-separated)</label>
+            <input type="text" id="emotionalTriggers" placeholder="fear of missing out, desire for status">
+          </div>
+        </div>
+
+        <!-- Takeaways Section -->
+        <div class="section">
+          <h3>Key Takeaways</h3>
+          <div class="field">
+            <label for="takeaways">Takeaways (one per line)</label>
+            <textarea id="takeaways" rows="3" placeholder="- Key lesson 1&#10;- Key lesson 2"></textarea>
+          </div>
+        </div>
+
+        <!-- Tags -->
+        <div class="field">
+          <label for="tags">Tags (comma-separated)</label>
+          <input type="text" id="tags" placeholder="saas, b2b, landing-page">
+        </div>
+
+        <button type="submit" id="saveBtn" class="primary-btn">
+          <span class="btn-text">Save to Swipe Files</span>
+          <span class="btn-loading" style="display: none;"><span class="spinner"></span> Saving...</span>
+          <span class="btn-success" style="display: none;">Saved</span>
+          <span class="btn-error" style="display: none;">Failed - Try Again</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Result -->
+    <div id="result" class="result" style="display: none;"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
